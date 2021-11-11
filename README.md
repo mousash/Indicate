@@ -16,6 +16,12 @@ Interactive notification pop-over (aka "Toast) modeled after the iOS AirPods and
 
 > The recommended way is to use CocoaPods.
 
+### Swift Package Manager
+
+Add this link to your SPM
+
+```https://github.com/mousash/Indicate```
+
 ### CocoaPods
 
 To install Indicate for Swift 5.0+, include the following in your Podfile
