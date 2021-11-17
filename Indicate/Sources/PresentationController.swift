@@ -154,7 +154,7 @@ extension Indicate {
         // MARK: Presentation Controller (Private Methods)
         
         private func onScreenPosition(forIndicator indicator: View) -> CGPoint {
-            return CGPoint(x: indicator.superview?.center.x ?? indicator.center.x, y: UINavigationController.navBarHeight() + Screen.statusBarHeight)
+            return CGPoint(x: indicator.superview?.center.x ?? indicator.center.x, y: UINavigationController.navBarHeight() + Screen.statusBarHeight + 16)
         }
         
         private func offScreenPosition(forIndicator indicator: View) -> CGPoint {
